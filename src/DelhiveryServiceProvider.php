@@ -1,0 +1,22 @@
+<?php
+
+namespace Imsidz\Delhivery;
+
+use Illuminate\Support\ServiceProvider;
+
+class DelhiveryServiceProvider extends ServiceProvider
+{
+    public function boot()
+    {
+        if ($this->app->runningInConsole()) {
+            $this->publishes([
+                __DIR__ . '/../config/delhivery.php' => config_path('delhivery.php'),
+            ], 'config');
+        }
+    }
+
+    public function register()
+    {
+        //
+    }
+}
