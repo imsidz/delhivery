@@ -1,0 +1,19 @@
+{
+    "name": "imsidz/delhivery",
+    "description": "Delhivery package for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Imsidz\\Delhivery\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "imsidz",
+            "email": "imsidzluv@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
