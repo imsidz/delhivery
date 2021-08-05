@@ -12,6 +12,7 @@ return [
 
     'credentials' => [
         'key' => env('DELHIVERY_KEY', 'keyhere'),
+        'env' => env('DELHIVERY_ENV', 'local')
     ],
 
 
